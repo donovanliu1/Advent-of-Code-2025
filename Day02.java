@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class StarterCode{
+public class Day02{
     public static void main(String[] args){
         ArrayList<String> fileData = getFileData("inputs/input.txt");
 
@@ -15,7 +15,7 @@ public class StarterCode{
         int count = 0;
         return count;
     }
-    
+
     public static int doPartTwo(ArrayList<String> fileData){
         int count = 0;
         return count;
