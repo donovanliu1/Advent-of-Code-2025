@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Day02{
     public static void main(String[] args){
         ArrayList<String> fileData = getFileData("inputs/input.txt");
+        String[] inputData = fileData.getFirst().split(",");
 
         System.out.println("Part 1: " + doPartOne(fileData));
         System.out.println("Part 2: " + doPartTwo(fileData));
@@ -14,6 +15,11 @@ public class Day02{
     public static int doPartOne(ArrayList<String> fileData){
         int count = 0;
         return count;
+    }
+
+    public static int[] getBounds(String boundsString){
+        String[] stringBounds = boundsString.split("-");
+
     }
 
     public static int doPartTwo(ArrayList<String> fileData){
